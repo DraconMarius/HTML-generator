@@ -1,0 +1,22 @@
+{
+  "name": "html-generator",
+  "version": "1.0.0",
+  "description": "generate html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DraconMarius/HTML-generator.git"
+  },
+  "author": "Daryl Empleo / Mari Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DraconMarius/HTML-generator/issues"
+  },
+  "homepage": "https://github.com/DraconMarius/HTML-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

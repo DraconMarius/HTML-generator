@@ -13,12 +13,12 @@ const htmlBlock = (response) =>
     </head>
     
     <body>
-        <div>
-            <div class="jumbotron">
-                <h1 id="name">${response.name}</h1>
-                <h2 id="location">${response.location}</h2>
-                <p id="description"> ${response.bio}</p>
-                <h3 id="contact-header"></h3>
+        <div class="jumbotron">
+            <div class="container text-align-center">
+                <h1 id="name">Hi there my name is ${response.name}</h1>
+                <h2 id="location">I'm currently located in: ${response.location}</h2>
+                <p id="description">My favorite food is: ${response.bio}</p>
+                <h3 id="contact-header">How to contact me:</h3>
                 <ul id="contact-list" class="list-group">
                     <li class="list-group-item"><a href="${response.LinkedIn}">LinkedIn</a></li>
                     <li class="list-group-item"><a href="https://github.com/${response.gitHub}">GitHub</a></li>
